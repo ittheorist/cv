@@ -1,0 +1,103 @@
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3498db;
+  border-radius: 25px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.textsmall {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#liround {
+  border-radius: 25px;
+}
+
+#about li {
+ color:#74808a;
+ margin:0
+}
+
+#experience li {
+ color:#74808a;
+ margin:0
+}
+
+.project-info li {
+color:#74808a;
+margin:0 0 15px 0;
+font-size:0.9em
+}
+
+.centered_thanks {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+ }
+
+#box_thanks {
+	padding:50px 15px;
+	background:#3498db;
+	text-align:center;
+	border-radius: 25px
+}
+
+#box_thanks h2 {
+	margin:0 0 15px 0;
+	color:#fff;
+	font-weight:500
+}
+
+#box_thanks h2 {
+	margin:0 0 15px 0;
+	color:#fff;
+	font-weight:500
+}
+
+#box_thanks p {
+	margin:0 0 15px 0;
+	color:#fff;
+	font-size:0.9em
+}

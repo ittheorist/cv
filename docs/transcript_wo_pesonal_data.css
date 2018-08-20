@@ -1,0 +1,70 @@
+.transcriptHeaderLabel {
+ color:#007734;
+ font-family:Segoe UI,Verdana,Arial,Helvetica,sans-serif;
+ font-size:14px;
+ font-weight:bolder
+}
+.transcriptContent {
+ font-family:Segoe UI,Verdana,Arial,Helvetica,sans-serif;
+ font-size:12px
+}
+.transcriptContentProfile {
+ font-family:Segoe UI,Verdana,Arial,Helvetica,sans-serif;
+ font-size:11px
+}
+.transcriptCaption {
+ font-family:Segoe UI,Verdana,Arial,Helvetica,sans-serif;
+ font-size:12px;
+ font-weight:bolder
+}
+.transcriptHeaderHorizontalLine {
+ margin:0;
+ height:1px;
+ color:#007734;
+ background-color:#007734
+}
+.transcriptHorizontalLine {
+ margin:0;
+ height:1px;
+ color:silver
+}
+.transcriptBold {
+ font-family:Segoe UI,Verdana,Arial,Helvetica,sans-serif;
+ font-size:14px;
+ font-weight:bolder
+}
+.registeredSymbol {
+ color:#fff;
+ font-family:Arial;
+ font-size:7px;
+ vertical-align:text-top
+}
+.microsoftHeader {
+ color:#fff;
+ font-family:Calibri,Verdana;
+ font-size:18px
+}
+.msviRegionGradient1 {
+ background-color:#006234
+}
+.msviRegionGradient2 {
+ background-image:linear-gradient(to right,#cc0a37 0%,#f36c2d 100%)
+}
+.msviRegionGradient3 {
+ background-image:linear-gradient(to right,#f36c2d 0%,#609d43 100%)
+}
+.msviRegionGradient4 {
+ background-image:linear-gradient(to right,#609d43 0%,#35a63d 100%)
+}
+.msviRegionGradient1 {
+ FILTER:progid:DXImageTransform.Microsoft.Gradient(startColorStr='#3AA53E',endColorStr='#BAC42C',gradientType='1')
+}
+.msviRegionGradient2 {
+ FILTER:progid:DXImageTransform.Microsoft.Gradient(startColorStr='#CC0A37',endColorStr='#F36C2D',gradientType='1')
+}
+.msviRegionGradient3 {
+ FILTER:progid:DXImageTransform.Microsoft.Gradient(startColorStr='#F36C2D',endColorStr='#609D43',gradientType='1')
+}
+.msviRegionGradient4 {
+ FILTER:progid:DXImageTransform.Microsoft.Gradient(startColorStr='#609D43',endColorStr='#35A63D',gradientType='1')
+}
